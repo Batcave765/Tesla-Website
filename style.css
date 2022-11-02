@@ -1,0 +1,125 @@
+@import url("https://fonts.cdnfonts.com/css/gotham-ssm");
+* {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	font-family: "Gotham SSm", sans-serif;
+	font-weight: 200;
+}
+.header {
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	font-size: 14px;
+}
+.header a {
+	font-weight: 550;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	transition: all 0.2s;
+	border-radius: 5px;
+}
+a:hover {
+	background-color: rgba(150, 150, 150, 0.404);
+}
+.model3 {
+	background: url("Model-3-Homepage.jpeg") no-repeat;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.head {
+	margin-top: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot {
+	margin-top: 350px;
+	display: flex;
+	justify-content: center;
+}
+.button {
+	border-radius: 4px;
+	font-size: larger;
+	margin: 10px 10px;
+	padding: 9px;
+	text-align: center;
+	width: 250px;
+	font-size: medium;
+	font-weight: 500;
+}
+#CO {
+	color: white;
+	background-color: #3a3d41d0;
+}
+#EI {
+	background-color: #e6e6e4af;
+}
+.modely {
+	background: url("Model-Y-Homepage.jpeg") no-repeat center;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.models {
+	background: url("Model-S-Homepage.jpeg") no-repeat center;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.modelx {
+	background: url("Model-X-Homepage.jpeg") no-repeat center;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.solarpanel {
+	background: url("SolarPanels-Hompeage.jpeg") no-repeat center;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.solarroof {
+	background: url("SolarRoof-Homepage.jpg") no-repeat center;
+	background-size: cover;
+	z-index: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
