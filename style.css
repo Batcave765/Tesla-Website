@@ -9,15 +9,15 @@
 .header {
 	padding: 0px 20px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	z-index: 2;
 	position: fixed;
-	width: 100%;
+	width: 97vw;
 	font-size: 14px;
 }
 .header a {
-	font-weight: 550;
+	font-weight: 600;
 }
 h1 {
 	font-size: 40px;
